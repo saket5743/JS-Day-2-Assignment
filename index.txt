@@ -1,0 +1,43 @@
+Q1. What are the differences between var, let and const?
+Ans. var declarations are globally scoped or function scoped while let and const are block scoped.
+     var variables can be updated and re-declared within its scope.
+     let variables can be updated but not re-declared.
+     const variables can neither be updated nor re-declared.
+     vars are hoisted.
+     var and let can be declared without being initialized, const must be initialized during declaration.
+
+Q2. Difference between undefined vs not defined vs NaN.
+Ans. Not defined - Any variable which we try to access but not declared.
+     eg:- console.log(a)
+     o/p :- a is not defined
+
+     Undefined - If a variable is declared but not assigned any value yet, but if we try to access that variable then we will get the error as undefined.
+     eg:- var b;
+          console.log(b)
+    o/p :- undefined
+
+    Null - It's a default value assigned by the user to the variable as long as the variable has not been assigned its the original value.
+    eg:- let c = null;
+         console.log(c);
+    o/p :- null
+
+Q3. What is difference between null and undefined and where to use what?
+Ans. Undefined - If a variable is declared but not assigned any value yet, but if we try to access that variable then we will get the error as undefined.
+     eg:- var b;
+          console.log(b)
+    o/p :- undefined
+
+    Null - It's a default value assigned by the user to the variable as long as the variable has not been assigned its the original value.
+    eg:- let c = null;
+         console.log(c);
+    o/p :- null
+
+Q4. What is execution context?
+Ans. When the JavaScript engine scans a script file, it makes an environment called the Execution Context that handles the entire transformation and execution of the code. During the context runtime, the parser parses the source code and allocates memory for the variables and functions.
+
+Q5. What is use of prompt in JavaScript? 
+Ans. The Javascript  Window prompt() method is used to display a dialog box with an optional message prompting the user to input some text. It is often used if the user wants to input a value before entering a page. It returns a string containing the text entered by the user, or null. 
+eg :- prompt('Enter your name')
+
+Q6. Why JavaScript is Dyanmic Language?
+Ans. Being able to change the underlying type of a variable while the program is running without causing an error is what makes JavaScript a dynamic language.
